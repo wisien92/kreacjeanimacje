@@ -83,12 +83,30 @@
 }
 @media only screen and (max-width: 600px) { 
 	.header-content {
-		height: 750px !important;
+		height: 680px !important;
 	}
-
+	
+	.navigation {	
+		padding: 5px 0 !important;
+	}
+	
+	.align-items-center {
+		align-items: baseline !important;		
+		margin-top: 25px;
+	}
+	
+	.about-foto {
+		height: 350px !important;
+		width: 350px !important;
+	}
+	
 	.gallery-row-2 {
 		visibility: hidden !important;
 		height: 0px !important;
+	}
+	
+	.single-service {
+		min-height: 340px !important;
 	}
 }
 
