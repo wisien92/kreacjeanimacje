@@ -88,6 +88,7 @@
 	
 	.navigation {	
 		padding: 5px 0 !important;
+		min-height: 80px;
 	}
 	
 	.align-items-center {
@@ -107,6 +108,10 @@
 	
 	.single-service {
 		min-height: 340px !important;
+	}
+	
+	.navbar-brand img {
+		height: 50px !important;
 	}
 }
 
