@@ -150,12 +150,14 @@
     color: #F9C27A !important;
 	border: 1px solid #F9C27A !important;
     background-color: #fff !important;
+	line-height: 70px !important;
 }
 
 .footer-content ul li a:hover {
     color: #BD5585 !important;
     background-color: #F9C27A !important;
     border-color: #F9C27A !important;
+	line-height: 70px !important;
 }
 
 .img-left {
