@@ -1,3 +1,8 @@
+.navigation .navbar {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
 .single-service {
 	min-height: 500px;
 }
@@ -52,6 +57,13 @@
     min-width: 100px !important;
 }
 
+.slick-href {
+	display: flex !important; 
+	align-items: center !important; 
+	justify-content: center !important; 
+	height: 100% !important;
+}
+
 .slick-slide a {
     vertical-align: middle !important;
 }
@@ -82,8 +94,25 @@
 	height: 550px !important;
 }
 @media only screen and (max-width: 600px) { 
+
+	.slick-slide {
+		text-align: center !important;
+		color: #000 !important;
+		padding: 5px !important;
+		height: 100px !important;
+		min-width: 100px !important;
+	}
+
+	.slick-href {
+		display: flex !important; 
+		align-items: center !important; 
+		justify-content: center !important; 
+		height: 100% !important;
+	}
+
 	.header-content {
-		height: 680px !important;
+		height: 450px !important;
+		margin-top: 60px !important;
 	}
 	
 	.navigation {	
@@ -116,6 +145,23 @@
 	
 	.navbar-brand img {
 		height: 50px !important;
+	}
+}
+
+.map {
+	width: 700px !important;
+	height: 500px !important;
+}
+
+@media (max-width: 767px)
+{
+	.navigation .navbar .navbar-collapse {
+		top: 120% !important;		
+		padding: 5px 25px !important;	
+	}
+	
+	.hero {
+		visibility:  collapse !important;
 	}
 }
 
@@ -176,6 +222,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+	
+	.footer-content ul li a {
+		color: #F9C27A !important;
+		border: 1px solid #F9C27A !important;
+		background-color: #fff !important;
+		line-height: 50px !important;
+	}
+	
+	.footer-content ul li a:hover {
+		color: #BD5585 !important;
+		background-color: #F9C27A !important;
+		border-color: #F9C27A !important;
+		line-height: 50px !important;
+	}
+
 	.img-left {
 		max-width: 15% !important;
 		left: 25px !important;

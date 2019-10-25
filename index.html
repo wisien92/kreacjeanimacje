@@ -30,7 +30,7 @@
 
     <!--====== Default css ======-->
     <link rel="stylesheet" href="assets/css/default.css">
-
+
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -66,7 +66,6 @@
 
     <header id="home" class="header-area">
         <div class="navigation fixed-top">
-            <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
@@ -92,7 +91,6 @@
                         </nav> <!-- navbar -->
                     </div>
                 </div> <!-- row -->
-            </div> <!-- container -->
         </div> <!-- navigation -->
 
         <div id="content" class="header-content d-flex align-items-center" style="background-color: #B3E5FC">          
@@ -110,7 +108,7 @@
                         </div> <!-- header content right -->
                     </div>
                     <div class="col-lg-6 offset-xl-1">
-                        <div class="">
+                        <div class="hero">
                             <img src="assets/images/hero.png" alt="hero">
                         </div> <!-- header image -->
                     </div>
@@ -418,7 +416,7 @@
 
     <!--====== BLOG PART START ======-->
 
-    <section id="blog" class="blog-area pb-60">
+    <section id="blog" class="blog-area" style="padding-bottom:0px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -432,67 +430,67 @@
         <div class="slick-container" >                
             <div class='single-item pt-25'>
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/lechia.jpg" alt="lechia">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/montesorri.jpg" alt="montesorri">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/kozigrod.png" alt="kozigrod">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/bazarnatury.jpg" alt="bazarnatury">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/baukrane.png" alt="baukrane">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/metropolia.jpg" alt="metropolia">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/panorama.png" alt="panorama">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/plichta.png" alt="plichta">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/wako.png" alt="wako">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/pks.png" alt="pks">
 					</a>
 				</div>
 				
                 <div class="slick-slide">
-					<a href="index.html"  style="display: flex; align-items: center; justify-content: center; height: 100%;">
+					<a href="index.html" class="slick-href">
 						<img src="assets/companies/zawiaty.png" alt="zawiaty">
 					</a>
 				</div>
@@ -616,11 +614,11 @@
 
     <script>
         $(".single-item").slick({     
-			dots: true,
 			slidesToShow: 4,
 			slidesToScroll: 1,
-			autoplay: true,
 			autoplaySpeed: 1000,
+			dots: true,
+			autoplay: true,
 			infinite: true,
 			 responsive: [
 				{
@@ -628,22 +626,28 @@
 				  settings: {
 					slidesToShow: 3,
 					slidesToScroll: 3,
-					infinite: true,
-					dots: true
 				  }
 				},
 				{
 				  breakpoint: 600,
 				  settings: {
 					slidesToShow: 2,
-					slidesToScroll: 2
+					slidesPerRow: 2,
+					rows: 2,
+					dots: true,
+					autoplay: true,
+					infinite: true,
 				  }
 				},
 				{
 				  breakpoint: 480,
 				  settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToShow: 2,
+					slidesPerRow: 2,
+					rows: 2,
+					dots: true,
+					autoplay: true,
+					infinite: true,
 				  }
 				}
 			  ]
