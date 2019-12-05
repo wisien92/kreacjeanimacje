@@ -1,0 +1,4 @@
+Sitemap: https://animacjetrojmiasto.pl/assets/sitemap.xml
+Sitemap: http://animacjetrojmiasto.pl/assets/sitemap.xml
+User-agent: *
+Disallow:
