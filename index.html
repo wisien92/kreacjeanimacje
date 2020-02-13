@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -40,6 +40,7 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/cookies.css">
 </head>
 
 <body>
@@ -800,6 +801,15 @@
             </div> <!-- container -->
         </div> <!-- footer widget -->
     </footer>
+	
+	
+	<div class="alert text-center cookiealert" role="alert">
+		<b>Czy lubisz ciasteczka?</b> &#x1F36A; Używamy plików 'cookie', aby zapewnić najlepszą jakość korzystania z naszej witryny. <a href="https://cookiesandyou.com/" target="_blank">Dowiedz się więcej</a>
+
+		<button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+			Zgadzam się
+		</button>
+	</div>
 
     <!--====== FOOTER PART ENDS ======-->
 
@@ -838,7 +848,7 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
-
+	
     <script>
         $(".single-item").slick({     
 			slidesToShow: 4,
@@ -890,6 +900,9 @@
 	
 	<!--====== Email js ======-->
     <script src="assets/js/smtp.js"></script>
+	
+	<!--====== Coookies js ======-->
+    <script src="assets/js/cookies.js"></script>
 			
 	<div class="email-success modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-sm">
@@ -918,7 +931,6 @@
 		</div>
 	  </div>
 	</div>
-
 </body>
 
 </html>
