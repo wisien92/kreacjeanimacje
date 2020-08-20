@@ -3,8 +3,8 @@ var Email = { send: function (a) { return new Promise(function (n, e) { a.nocach
 
 $(function() {
 	  $('#contactform').submit(function(e) {
-		var emailAddress = document.getElementById("inputPhone").value;
-		var phoneNumber = document.getElementById("inputEmail").value;
+		var phoneNumber = document.getElementById("inputPhone").value;
+		var emailAddress = document.getElementById("inputEmail").value;
 		var eventType = document.getElementById("inputEventType").value;
 		var eventDate = document.getElementById("inputEventDate").value;
 		var comments = document.getElementById("inputComments").value;
