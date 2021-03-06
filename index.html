@@ -135,6 +135,14 @@
         </div> <!-- header content -->
     </header>
     <!--====== HEADER PART ENDS ======-->
+	
+	<!--div align="center">
+	 <marquee behavior="alternate" bgcolor="#bb3434" direction="left" height:="" loop="7" scrollamount="2" scrolldelay="2" width="100%">
+		<span style="font-size: 25px;color:#FFFFFF; padding: 8px;">
+		Latest news! Latest news! Latest news! Latest news!
+		</span>
+	 </marquee>
+	</div-->
 
     <!--====== ABOUT PART START ======-->
     <section id="about" class="about-area pt-100 pb-50">
@@ -887,6 +895,14 @@
 	  }
 	</script>
 	
+	<script>
+		jQuery(document).ready(function($){		  
+			window.onload = function (){		  
+				$('.vaacation-info').delay(100).modal('show');
+			}
+		});
+	</script>
+	
 	<!--====== Email js ======-->
     <script src="assets/js/smtp.js"></script>
 	
@@ -920,6 +936,21 @@
 		</div>
 	  </div>
 	</div>
+	
+	<div class="vaacation-info modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="margin-top: 225px;">
+	  <div class="modal-dialog modal-sm">
+		<div class="modal-content" style="padding: 45px; text-align:center;">
+		  Kochani! W terminie 7.03-22.03 jestem na urlopie.
+		  <br/>
+		  <br/>
+		  Prosze o kontakt mailowy albo poprzez formularz znajdujacy się na dole strony.
+		  <br/>
+		  <br/>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+		</div>
+	  </div>
+	</div>
+	
 </body>
 
 </html>
