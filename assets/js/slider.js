@@ -60,13 +60,13 @@ $('.wedding-range-labels li').on('click', function () {
 $("#birthday-range").on("input change", function(e) {
 	switch ($(this).val()) {
 		case '1':		  
-			document.getElementById("birthday-price").innerHTML = "200 PLN";
+			document.getElementById("birthday-price").innerHTML = "250 PLN";
 			break;
 		case '2':
-			document.getElementById("birthday-price").innerHTML = "350 PLN";
+			document.getElementById("birthday-price").innerHTML = "400 PLN";
 			break;
 		case '3':
-			document.getElementById("birthday-price").innerHTML = "450 PLN";
+			document.getElementById("birthday-price").innerHTML = "500 PLN";
 			break;
 		case '4':
 			document.getElementById("birthday-price").innerHTML = "Cena ustalana indywidualnie";
@@ -79,13 +79,13 @@ $("#birthday-range").on("input change", function(e) {
 $("#wedding-range").on("input change", function(e) {
 	switch ($(this).val()) {
 		case '1':
-			document.getElementById("wedding-price").innerHTML = "450 PLN";
+			document.getElementById("wedding-price").innerHTML = "500 PLN";
 			break;
 		case '2':
-			document.getElementById("wedding-price").innerHTML = "550 PLN";
+			document.getElementById("wedding-price").innerHTML = "600 PLN";
 			break;
 		case '3':
-			document.getElementById("wedding-price").innerHTML = "650 PLN";
+			document.getElementById("wedding-price").innerHTML = "700 PLN";
 			break;
 		case '4':
 			document.getElementById("wedding-price").innerHTML = "Cena ustalana indywidualnie";
