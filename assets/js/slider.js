@@ -17,7 +17,7 @@ var getBirthdayTrackStyle = function (el) {
   curLabel.prevAll().addClass('selected');
   
   for (var i = 0; i < prefs.length; i++) {
-    style += '.birthday-range-div input::-' + prefs[i] + '{background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
+    style += '.birthday-range-div input::-' + prefs[i] + '{background: linear-gradient(to right, #fea1c9 0%, #fea1c9 ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
   }
   return style;
 }
@@ -34,7 +34,7 @@ var getWeddingTrackStyle = function (el) {
   curLabel.prevAll().addClass('selected');
   
   for (var i = 0; i < prefs.length; i++) {
-    style += '.wedding-range-div input::-' + prefs[i] + '{background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
+    style += '.wedding-range-div input::-' + prefs[i] + '{background: linear-gradient(to right, #fea1c9 0%, #fea1c9 ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
   }
   return style;
 }
@@ -66,7 +66,7 @@ $("#birthday-range").on("input change", function(e) {
 			document.getElementById("birthday-price").innerHTML = "400 PLN";
 			break;
 		case '3':
-			document.getElementById("birthday-price").innerHTML = "500 PLN";
+			document.getElementById("birthday-price").innerHTML = "550 PLN";
 			break;
 		case '4':
 			document.getElementById("birthday-price").innerHTML = "Cena ustalana indywidualnie";
@@ -82,10 +82,10 @@ $("#wedding-range").on("input change", function(e) {
 			document.getElementById("wedding-price").innerHTML = "500 PLN";
 			break;
 		case '2':
-			document.getElementById("wedding-price").innerHTML = "600 PLN";
+			document.getElementById("wedding-price").innerHTML = "650 PLN";
 			break;
 		case '3':
-			document.getElementById("wedding-price").innerHTML = "700 PLN";
+			document.getElementById("wedding-price").innerHTML = "800 PLN";
 			break;
 		case '4':
 			document.getElementById("wedding-price").innerHTML = "Cena ustalana indywidualnie";
