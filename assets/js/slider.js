@@ -63,10 +63,10 @@ $("#birthday-range").on("input change", function(e) {
 			document.getElementById("birthday-price").innerHTML = "300 ZŁ";
 			break;
 		case '2':
-			document.getElementById("birthday-price").innerHTML = "400 ZŁ";
+			document.getElementById("birthday-price").innerHTML = "450 ZŁ";
 			break;
 		case '3':
-			document.getElementById("birthday-price").innerHTML = "550 ZŁ";
+			document.getElementById("birthday-price").innerHTML = "600 ZŁ";
 			break;
 		case '4':
 			document.getElementById("birthday-price").innerHTML = "Cena ustalana indywidualnie";
