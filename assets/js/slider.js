@@ -60,7 +60,7 @@ $('.wedding-range-labels li').on('click', function () {
 $("#birthday-range").on("input change", function(e) {
 	switch ($(this).val()) {
 		case '1':		  
-			document.getElementById("birthday-price").innerHTML = "300 ZŁ";
+			document.getElementById("birthday-price").innerHTML = "350 ZŁ";
 			break;
 		case '2':
 			document.getElementById("birthday-price").innerHTML = "450 ZŁ";
