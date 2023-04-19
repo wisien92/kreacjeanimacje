@@ -3,7 +3,7 @@
 .range-body
 {
 	width: 250px; 
-	margin-left: 10px;
+	margin-left: 25px;
 }
 
 @media (max-width: 767px) {

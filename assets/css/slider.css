@@ -6,7 +6,8 @@
 }
 
 .range-div {	
-    width: 250px;
+    width: 202px;
+    margin-left: 10px;
 }
 
 .range-input::-webkit-slider-thumb {
@@ -84,7 +85,7 @@
 .range-labels li {
     position: relative;
     float: left;
-    width: 82px;
+    width: 102px;
     text-align: center;
     color: #b2b2b2;
     font-size: 12px;
