@@ -42,10 +42,23 @@
     <link rel="stylesheet" href="assets/css/slider.css">
     <link rel="stylesheet" href="assets/css/cookies.css">
     <link rel="stylesheet" href="assets/css/mobile.css">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5NGZHLLK');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NGZHLLK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <!--====== PRELOADER PART START ======-->
     <div class="preloader">
         <div class="loader_34">
@@ -74,6 +87,7 @@
                             <a class="navbar-brand" href="index.html">
                                 <img src="assets/images/logo.png" alt="Logo">
                             </a> <!-- Logo -->
+                            
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
@@ -94,6 +108,10 @@
                         </nav> <!-- navbar -->
                     </div>
                 </div> <!-- row -->
+                <div class="row nav-contact">
+                    <a href="tel:+48 507 326 149"><i class="fas fa-mobile-alt"></i> +48 507 326 149</a>                    
+                    <a  style="margin-left: 20px;"href="mailto:kreacjeanimacje@gmail.com"><i class="fas fa-envelope" ></i> kreacjeanimacje@gmail.com</a>
+                </div>
         </div> <!-- navigation -->
 
         <div id="content" class="header-content d-flex align-items-center" style="background-color: #f2d8bd">          
@@ -369,7 +387,7 @@
                             <br/>
                             <p>
 							<div class="col-auto my-1">
-								<label class="mr-sm-2" for="inlineFormCustomSelect">Czas trwania animacji</label>										
+								<label class="mr-sm-2">Czas trwania animacji</label>										
 								<div class="range-body">
 									<div class="workshop-range-div range-div">
 										<input type="range" class="workshop-range-input range-input" id="workshop-range" min="1" max="3" steps="1" value="1">
@@ -403,7 +421,7 @@
                             <br/><br/>
                             <p>
 							<div class="col-auto my-1">
-								<label class="mr-sm-2" for="inlineFormCustomSelect">Czas trwania animacji</label>										
+								<label class="mr-sm-2">Czas trwania animacji</label>										
 								<div class="range-body">
 									<div class="birthday-range-div range-div">
 										<input type="range" class="birthday-range-input range-input" id="birthday-range" min="1" max="3" steps="1" value="1">
@@ -437,7 +455,7 @@
                             <br/>
                             <p>
 							<div class="col-auto my-1">
-							  <label class="mr-sm-2" for="inlineFormCustomSelect">Czas trwania animacji</label>	
+							  <label class="mr-sm-2">Czas trwania animacji</label>	
 								<div class="range-body">
 									<div class="wedding-range-div range-div">
 										<input type="range" class="wedding-range-input range-input" id="wedding-range" min="1" max="3" steps="1" value="1">
@@ -777,8 +795,9 @@
                 </div>
             </div> <!-- row -->
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-7">
+                <div class="col-lg-4 col-md-6 col-sm-7">                    
                     <div class="contact-box text-center mt-30">
+                        <a href="tel:+48 507 326 149">
                         <div class="contact-icon">
                             <i class="fas fa-mobile-alt"></i>
                         </div>
@@ -786,10 +805,12 @@
                             <h6 class="contact-title">Telefon</h6>
                             <p>+48 507 326 149</p>
                         </div>
+                    </a>
                     </div> <!-- contact box -->
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-7">
                     <div class="contact-box text-center mt-30">
+                        <a href="mailto:kreacjeanimacje@gmail.com">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
@@ -797,6 +818,7 @@
                             <h6 class="contact-title">Email</h6>
                             <p>kreacjeanimacje@gmail.com</p>
                         </div>
+                        </a>
                     </div> <!-- contact box -->
                 </div>		
 			</div> <!-- row -->
@@ -823,7 +845,7 @@
 				  </div>
 				  
 				  <div class="form-group mt-25">
-					<label for="exampleFormControlSelect1">Typ eventu</label>
+					<label for="inputEventType">Typ eventu</label>
 					<select class="form-control" id="inputEventType">
 					  <option>Urodziny</option>
 					  <option>Wesele</option>
@@ -833,12 +855,12 @@
 				  </div>
 				  
 				  <div class="form-group">
-					<label for="exampleFormControlSelect1">Data eventu</label>
+					<label for="inputEventDate">Data eventu</label>
 					<input type="date" name="bday" id="inputEventDate" max="2024-12-31" min="2022-05-05" class="form-control">
 				  </div>
 				  
 				  <div class="form-group mt-25">
-					<label for="inputInfo">Dodatkowe informacje (np.ilość dzieci i ich wiek)</label>
+					<label for="inputComments">Dodatkowe informacje (np.ilość dzieci i ich wiek)</label>
 					<textarea class="form-control" id="inputComments"></textarea>	
 				  </div>
 				  

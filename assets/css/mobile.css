@@ -19,3 +19,29 @@
     max-width: 550px;
 }
 }
+
+.nav-contact {
+	margin-left: 30px; 
+	margin-top: 15px; 
+	color: black;
+}
+
+.nav-contact a {
+	color: black;
+	margin-left: 5px;
+}
+
+.nav-contact a:hover {
+	color: #28a9e0;
+}
+
+@media (max-width: 767px) {
+
+	.nav-contact a {
+		margin-left: 0px;
+	}
+
+	.nav-contact i {
+		visibility: collapse;
+	}
+}
