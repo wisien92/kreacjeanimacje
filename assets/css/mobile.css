@@ -21,7 +21,7 @@
 }
 
 .nav-contact {
-	margin-left: 30px; 
+	margin-left: 10px; 
 	margin-top: 15px; 
 	color: black;
 }
@@ -35,6 +35,10 @@
 	color: #28a9e0;
 }
 
+.nav-email {
+	margin-left: 20px !important;
+}
+
 @media (max-width: 767px) {
 
 	.nav-contact a {
@@ -43,5 +47,13 @@
 
 	.nav-contact i {
 		visibility: collapse;
+	}
+
+	.nav-email {
+		margin-left: 0px  !important;
+	}
+
+	.header-content-right {
+		margin-top: 50px;
 	}
 }
